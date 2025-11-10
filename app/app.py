@@ -8,7 +8,7 @@ def index():
     conn = mysql.connector.connect(
         host="db",
         user="root",
-        password="wrongpassword",  # ❌ Intentionally wrong
+        password="root",  # ❌ Intentionally wrong
         database="mydb"
     )
     cursor = conn.cursor()
